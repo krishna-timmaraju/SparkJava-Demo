@@ -1,0 +1,30 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>sparkjavanewrelic</groupId>
+  <artifactId>sparkjavanewrelic</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <name>sparkjavanewrelic</name>
+  <description>sparkjavanewrelic</description>
+  
+  <dependencies>
+  
+  	<dependency>
+    	<groupId>com.sparkjava</groupId>
+    	<artifactId>spark-core</artifactId>
+    	<version>2.9.3</version>
+	</dependency>
+	
+	<dependency> 
+    	<groupId>com.fasterxml.jackson.core</groupId> 
+    	<artifactId>jackson-databind</artifactId>   
+    	<version>2.12.3</version> 
+	</dependency>
+	
+	<dependency>
+        <groupId>ch.qos.logback</groupId>
+        <artifactId>logback-classic</artifactId>
+        <version>1.2.3</version>
+        </dependency>
+	
+  </dependencies>
+</project>
